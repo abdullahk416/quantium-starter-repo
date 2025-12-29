@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd 
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
 
@@ -87,7 +87,7 @@ app.layout = html.Div(
         html.Div(
             className="card header-card",
             children=[
-                html.H1("Soul Foods Pink Morsels Sales Visualiser", className="title"),
+                html.H1("Soul Foods Pink Morsels Sales Visualiser", className="title", id="header"),
                 html.P(
                     "Filter by region to explore trends. The dashed vertical line marks the Jan 15, 2021 price increase.",
                     className="subtitle",
